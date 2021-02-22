@@ -17,7 +17,7 @@
 /* global mapboxgl */
 export default {
   mounted: function() {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZHphZ2hpYW4iLCJhIjoiY2pzbnF0NmV0MGY2czQzbXBpMjcwMzRmNiJ9.Jei4-17Vu7hJSerisjPCEg';
+    mapboxgl.accessToken = 'your-token-here';
     new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/mapbox/streets-v11', // style URL
